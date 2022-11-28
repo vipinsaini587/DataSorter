@@ -1,0 +1,40 @@
+#loading {
+  visibility: hidden;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-group {
+  max-width: 430px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.logout{
+float: right;
+}
+
+#hide{
+ padding-top: 60px;
+}
+
+
+
+

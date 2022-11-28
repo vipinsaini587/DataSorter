@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Search-IP</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="css/FindIP.css" rel="stylesheet" crossorigin="anonymous"/>
+</head>
+<body>
+<div class="IP_Search" id="hide" >
+<div class="container">
+
+    <form method="post" action="" id="forms" role="form" class="form-signin">
+
+                        <div class="form-group">
+                            <h2 class="form-signin-heading">Enter IP Address Here</h2>
+                            <p>
+<!--                            <label for="username" class="sr-only">Username</label>-->
+                            <input type="text" id="ip" name="ip" class="form-control" placeholder="IP Address" required autofocus>
+
+                        </div>
+
+                <div align="center">
+                    <input type="submit" name="Button1" value="Search" id="Button1" class="btn btn-primary btn-lg" />
+                </div>
+        </form>
+</div>
+    <div id="loading">
+
+        <h1 align="center"> Fetching Results Please Wait ...</h1>
+        <br>
+        <img align="center" src="img/loader.gif">
+
+    </div>
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/FindIP.js"></script>
+</body>
+</html>
